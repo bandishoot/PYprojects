@@ -1,0 +1,34 @@
+<h2>Restricting Rows</h2>
+
+A DataFrame can have it's rows restricted in one of two ways:
+<ul>
+    <li>By index using the .iloc object</li>
+    <li>By a condition on one of the fields</li>
+</ul>
+
+<br>
+<h3>By Index</h3>
+A slice of the rows can be selected by their index number using the .iloc object<br>
+For Example<br>
+To return lines 3,4 and 5 you could use:
+<em><b>data.iloc[3:6]</b></em><br>
+Note: Python never includes the end of the range
+
+<br><br>
+To return a single row, say row 8, either of the following could be used (they return different structures):
+<ul>
+    <li><em><b>data.iloc[8:9]</b></em><br></li>
+    <li><em><b>data.iloc[9]</b></em><br></li>
+</ul>
+Test them in the Python file to investigate.
+
+<br><br>
+
+<h3>By Condition</h3>
+The syntax for this is slightly unusual. <br>
+A condition is created, say the order quantities exactly equal to 10: data['Qty'] == 10 <br>
+This creates a list of row number. This condition is then inserted into square brackets after the DataFrame name. <br>
+<br>
+For Example:<br>
+<em><b>data[data['Qty'] == 10]</b></em><br>
+This then return just the orders where the quantity is equal to 10.

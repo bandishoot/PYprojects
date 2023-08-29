@@ -1,0 +1,38 @@
+<html>
+<h2>Modify The Plot</h2>
+
+Hopefully in the last section you managed to plot the chart below:<br>
+<img src="Subjects.png" style="height:4cm">
+
+<p>
+    This isn't ideal as a final output. <br>
+</p>
+<br>
+    Charts require:
+    <ul>
+    <li>Title</li>
+        <li>Axis Titles</li>
+    <li>Axis Labels</li>
+</ul>
+
+<p>
+    Firstly, we want our subjects to be the <em>x</em>-axis labels. So we set the index of the DataFrame to be the subjects column:
+    <br>
+    <em><strong>data.index=data["subject"]</strong></em>
+</p>
+
+<p>
+    Run the program and plot the chart again, however, you'll find the labels are rotated 90 degrees and difficult to read. This is set during the initial .plot() method, add rot=0 to keep them horizontal.<br><br>
+    Whilst altering this line, you can also alter the colours of the chart, as a list (an item for each category) and also add a title.
+    <br>
+    <em><strong>data.plot(kind="bar", color=["blue","red"],rot=0, title="Favorite Subjects")</strong></em>
+</p>
+
+<p>
+    Lastly let's add some axis titles:<br>
+    <em><strong>plt.xlabel('Subject')</strong></em><br>
+    <em><strong>plt.ylabel('Frequency')</strong></em>
+</p>
+
+<p> Rerun the program and check your answer with your teacher.</p>
+</html>

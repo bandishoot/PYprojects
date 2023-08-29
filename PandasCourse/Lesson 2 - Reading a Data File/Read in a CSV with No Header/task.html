@@ -1,0 +1,13 @@
+<html>
+<h2>Read a CSV with No Header</h2>
+
+Occasionally a CSV file will contain just raw data and will require all the rows to be read as data into the DataFrame, giving you no columns names (we'll handle that shortly).
+<br><br>
+Should these situation occur, simply adding <em><b>header=None</b></em> to the <em>read_csv</em> method will ensure the pandas library doesn't try to assign column names.
+<br><br>
+For Example<br>
+try running the following line<br>
+<em><b>data = pd.read_csv("healthNoHeader.csv", header=None)</b></em>
+
+
+</html>

@@ -1,0 +1,17 @@
+title: PandasCourse
+language: English
+summary: |-
+  Python course.
+  Created: Feb 19, 2021, 8:33:10 PM.
+  By Mr Lash
+programming_language: Python
+environment: unittest
+content:
+- Lesson 1 - Basics
+- Lesson 2 - Reading a Data File
+- Lesson 3 - Calculated Columns   Stats
+- Lesson 4 - Manipulating the DataFrame
+- Lesson 5 - Univariate Data
+- Lesson 6 - Bivariate Data
+- Lesson 7 - Project
+mode: Study

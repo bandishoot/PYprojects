@@ -1,0 +1,77 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 118
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 118
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  - offset: 147
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 147
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '        '
+  - offset: 175
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 175
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |+
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    data = pd.read_csv("subjects.csv")
+
+    # change the DataFrame index
+    # TODO
+
+    data.plot(kind="bar" # TODO )
+
+    # Add axis titles
+    # TODO
+
+    #show the plot
+    plt.show()
+
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: subjects.csv
+  visible: true
+  learner_created: false
+- name: Subjects.png
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

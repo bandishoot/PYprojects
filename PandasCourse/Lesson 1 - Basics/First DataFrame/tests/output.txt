@@ -1,0 +1,4 @@
+    name  height  weight  colour
+0    Tim    1.73      68     red
+1   Jane    1.68      60    blue
+2  Alfie    1.70      80  yellow

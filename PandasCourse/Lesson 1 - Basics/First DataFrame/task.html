@@ -1,0 +1,33 @@
+<html>
+<body>
+<h2>Creating a DataFrame</h2>
+
+A DataFrame is a table of values made up of fields in columns and rows of data. It is a bit like a table in Excel.
+<br><br>
+
+The DataFrame is the fundamental object in this course and we'll be learning how to manipulate it, do calculations on it and draw charts.
+<br><br>
+
+To create your first DataFrame, you'll need to import the pandas library. At the top of your python file, type:<br>
+<em><b>import pandas as pd</b></em>
+
+<br><br>
+This will import the library and shorten it's name to pd, so we don't have to type pandas all the time.
+
+<br><br>
+Let's say we had some data on Tim, Jane and Alfie, such as their height, weight and favourite colour. we could set up a DataFrame using dictionaries with the columns as the keys and lists of data points as the value.<br><br>
+For Example:<br>
+<em><b>
+dataDict = {'name':['Tim','Jane','Alfie'], 'height':[1.73, 1.68, 1.70], 'weight':[68, 60, 80],'colour':['red','blue','yellow']}
+</b></em>
+<br><br>
+We can then use this dictionary to build a DataFrame:
+<br><br>
+    <em><b>
+data = pd.DataFrame(dataDict)<br>
+</b></em>
+<br><br><br>
+Type in the lines of code above into the task window and see the output.
+
+</body>
+</html>

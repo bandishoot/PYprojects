@@ -1,0 +1,16 @@
+                Client           Item  Price  Qty
+1      Rosaline Salido      lip gloss  48.11   10
+2    Jarrett Milbourne           tree  48.45   10
+12       Jonah Dampier     tissue box  38.18    8
+15        Aurore Oberg      face wash  15.14    8
+18         Letty Koehn          clock  38.26   10
+20    Lauralee Decicco       boom box  17.61    8
+24      Joycelyn Pasek          table  18.26    9
+26          Janee Shoe         canvas  14.51   10
+31  Beverlee Beckstead    thermometer  41.26    9
+33         Nella Hosea         pencil  40.69    9
+35       Donita Petrus     thermostat  29.74    9
+37        Lela Okelley          phone  25.61    9
+38      Mavis Pletcher  ice cube tray  40.76   10
+41      Delorse Cusick         window   7.86   10
+47      Rosario Casias         helmet  43.92   10

@@ -1,0 +1,87 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+                     Client           Item  Price  Qty  subtotal    GST   total
+    0        Danelle Ringel   cinder block   3.13    6     18.78   1.88   20.66
+    1       Rosaline Salido      lip gloss  48.11   10    481.10  48.11  529.21
+    2     Jarrett Milbourne           tree  48.45   10    484.50  48.45  532.95
+    3         Adolfo Mosier    conditioner   4.97    2      9.94   0.99   10.93
+    4         Tracee Barcia       hair tie  35.60    2     71.20   7.12   78.32
+    5    Esmeralda Spagnolo        balloon  19.18    5     95.90   9.59  105.49
+    6       Kathi Stillings        perfume  34.11    6    204.66  20.47  225.13
+    7         Zulema Monsen     mp3 player   9.83    1      9.83   0.98   10.81
+    8       Crystal Scouten    paint brush  43.24    2     86.48   8.65   95.13
+    9            Bambi Luke           bowl  10.22    4     40.88   4.09   44.97
+    10         Kaley Pascal          towel  16.86    5     84.30   8.43   92.73
+    11       Lannie Crowden          knife  41.94    7    293.58  29.36  322.94
+    12        Jonah Dampier     tissue box  38.18    8    305.44  30.54  335.98
+    13         Aide Wellman          floor  21.49    4     85.96   8.60   94.56
+    14       Elodia Garlitz     sketch pad  47.92    5    239.60  23.96  263.56
+    15         Aurore Oberg      face wash  15.14    8    121.12  12.11  133.23
+    16         Karina Boehm        monitor  44.73    2     89.46   8.95   98.41
+    17     Kizzy Mclaughlin           cork  24.66    5    123.30  12.33  135.63
+    18          Letty Koehn          clock  38.26   10    382.60  38.26  420.86
+    19    Patrina Aguinaldo    thermometer  18.29    4     73.16   7.32   80.48
+    20     Lauralee Decicco       boom box  17.61    8    140.88  14.09  154.97
+    21    Kimberely Caiazzo       twezzers  37.09    4    148.36  14.84  163.20
+    22      Pedro Sandridge     sketch pad   8.80    2     17.60   1.76   19.36
+    23    Latrisha Bertrand             tv  24.60    7    172.20  17.22  189.42
+    24       Joycelyn Pasek          table  18.26    9    164.34  16.43  180.77
+    25     Daphne Constante          watch  35.60    7    249.20  24.92  274.12
+    26           Janee Shoe         canvas  14.51   10    145.10  14.51  159.61
+    27          Mila Vassar         outlet   1.38    2      2.76   0.28    3.04
+    28        Porsche Schuh         needle  40.58    4    162.32  16.23  178.55
+    29          Jena Decato          screw  30.43    7    213.01  21.30  234.31
+    30      Maddie Dearborn     hair brush   6.94    2     13.88   1.39   15.27
+    31   Beverlee Beckstead    thermometer  41.26    9    371.34  37.13  408.47
+    32     Marcellus Vogler        sharpie  24.88    4     99.52   9.95  109.47
+    33          Nella Hosea         pencil  40.69    9    366.21  36.62  402.83
+    34      Fermin Fuselier     toothpaste   6.38    1      6.38   0.64    7.02
+    35        Donita Petrus     thermostat  29.74    9    267.66  26.77  294.43
+    36  Graciela Desantiago         helmet  25.65    7    179.55  17.95  197.50
+    37         Lela Okelley          phone  25.61    9    230.49  23.05  253.54
+    38       Mavis Pletcher  ice cube tray  40.76   10    407.60  40.76  448.36
+    39       Sonja Demarest          apple   5.97    2     11.94   1.19   13.13
+    40         Penni Duprey    sticky note  43.24    1     43.24   4.32   47.56
+    41       Delorse Cusick         window   7.86   10     78.60   7.86   86.46
+    42         Pamelia Lebo           lace  43.07    1     43.07   4.31   47.38
+    43     Theodora Durrant      white out  48.83    3    146.49  14.65  161.14
+    44       Louann Crigler         camera  11.15    7     78.05   7.80   85.85
+    45        Romona Lawler      stockings  33.45    3    100.35  10.04  110.39
+    46     Angelika Wolfson       keyboard   6.72    7     47.04   4.70   51.74
+    47       Rosario Casias         helmet  43.92   10    439.20  43.92  483.12
+    48        Verline Rubio  greeting card  47.01    7    329.07  32.91  361.98
+    49       Angela Kennedy     glow stick  40.93    7    286.51  28.65  315.16
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 89
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 89
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+
+    data = pd.read_csv('shop.csv')
+
+    #create new calculated columns here
+    # TODO
+    print(data)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: shop.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

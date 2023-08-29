@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print(f'Наименьшее число = {min(a,b,c,d,e)}', f'Наибольшее число = {max(a,b,c,d,e)}', sep='\n')

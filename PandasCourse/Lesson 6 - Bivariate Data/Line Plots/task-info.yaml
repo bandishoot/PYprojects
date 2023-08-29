@@ -1,0 +1,52 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 173
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 173
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    #read in data and reset index
+    data = pd.read_csv("temperature.csv")
+    data.set_index('Time', inplace=True)
+
+
+    #create plot
+    # TODO
+
+
+    plt.show()
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: temperature.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

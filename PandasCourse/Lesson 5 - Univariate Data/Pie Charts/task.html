@@ -1,0 +1,26 @@
+<html>
+<h2>
+    Pie Charts
+</h2>
+
+<p>The same categorical data can be plotted in a pie chart.<br>
+To plot a pie chart, we simply alter the kind argument in the .plot() method.
+An argument to enable subplots must be used in this case because we have two pie charts.</p>
+<em><strong>data.plot(kind="pie", subplots=True)</strong></em>
+
+<p>
+   Run the program; the legend is not required in this case, as the slices of pie are already labelled. To remove the legend set it to false in the .plot() method.
+<br>
+    <em><strong>data.plot(kind="pie", subplots=True, legend=False)</strong></em>
+</p>
+
+
+<p>
+    Titles and colours (one for each category) can be added again:<br>
+    <em><strong>data.plot(kind="pie", subplots=True, legend=False, colors=['red','pink','orange','yellow','blue','green'], title ="Favorite Subjects")</strong></em>
+</p>
+
+<p>Try playing around with the plot, see <a href="https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.plot.html" >here</a>
+<br>Check you answer with your teacher.</p>
+
+</html>

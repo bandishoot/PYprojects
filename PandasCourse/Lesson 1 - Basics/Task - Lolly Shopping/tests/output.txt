@@ -1,0 +1,5 @@
+   Names  Snakes  Chocolates  Sherberts
+0   Dave       4           2          3
+1   Jill       2           5          1
+2  Bryan       5           3          3
+3   Fred       2           6          0

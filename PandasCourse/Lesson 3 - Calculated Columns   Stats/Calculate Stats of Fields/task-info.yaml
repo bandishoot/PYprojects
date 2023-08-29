@@ -1,0 +1,41 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    9090.13
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 267
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 267
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+
+    data = pd.read_csv('shop.csv')
+
+    #create new calculated columns here
+    data['subtotal'] = data['Qty']*data['Price']
+    data['GST'] = round(data['subtotal']*0.1,2)
+    data['total']=data['subtotal']+data['GST']
+
+    #print the total of all the order here
+    print(# TODO)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: shop.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

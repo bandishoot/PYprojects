@@ -1,0 +1,48 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+        name  height  weight  colour
+    0    Tim    1.73      68     red
+    1   Jane    1.68      60    blue
+    2  Alfie    1.70      80  yellow
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 21
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 21
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  - offset: 48
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 48
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    # import the library
+    # TODO
+
+    # paste lines here
+    # TODO
+
+    # see the result
+    print(data)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

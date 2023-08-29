@@ -1,0 +1,21 @@
+<h2>Calculating New Columns</h2>
+
+As we saw in Lesson 1, creating new columns from calculations on current columns is straight forward.
+<br> Simply typing the name of the DataFrame and calling a field title that doesn't exist automatically creates it. Then it's just matter of assign the calculated values.
+
+<br><br>
+For Example<br>
+Run the code in the python file and see list of 50 shop orders. We currently have the name, item, price and quantity of the orders. If we wanted to create new columns to calculate:
+<ul>
+    <li>Subtotal (Qty x Price)</li>
+    <li>GST (10% of Subtotal</li>
+    <li>Total (Subtotal + GST)</li>
+</ul>
+we could use the following code:<br>
+<em><b>data['subtotal'] = data['Qty']*data['Price']<br>
+data['GST'] = round(data['subtotal']*0.1,2)<br>
+data['total']=data['subtotal']+data['GST']<br>
+</b></em>
+<br>
+
+Notice the use of the round() function in the middle line. The round function take two parameters, the number to round and the number of decimal places.

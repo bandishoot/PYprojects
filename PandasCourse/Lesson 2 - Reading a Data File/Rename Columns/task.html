@@ -1,0 +1,17 @@
+<h2>Changing the Column Names</h2>
+
+It might be necessary to alter the names of columns, there can be many reason for this:
+<ol>
+    <li>There is no header in the CSV file.</li>
+    <li>The current names have spaces in (this tends to cause issues during some analysis.</li>
+    <li>The naming convention is inconsistent.</li>
+    <li>the names are meaningful.</li>
+</ol>
+
+There are other reasons, but these are common. Please note, that your columns names should therefore try to match the criteria above.<br><br>
+
+
+The columns names is a pandas DataFrame are stores as a list under the columns property for the specific DataFrame. It can be easily accessed and edited.<br><br>
+
+From the example in the current programme, try running:
+<em><b>data.columns=['name','email','dob','height','weight','smoker']</b></em>

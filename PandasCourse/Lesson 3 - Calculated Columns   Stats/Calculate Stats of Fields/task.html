@@ -1,0 +1,18 @@
+<h2>Specific Stats of Fields</h2>
+
+Sometimes it is necessary to store the statistic of a field for use in other calculations. For instance in the shop order we saw in the first section of this lesson, it may be necessary to calculate the total of all the orders which is then passed into some other calculations required for tax purposes.
+
+<br><br>
+Pandas has methods for these common statistics, which can be called on a named field:
+<ul>
+    <li>Total -> .sum() </li>
+    <li> Average -> .mean() </li>
+    <li>Standard Deviation -> .std()</li>
+    <li>Max -> .max()</li>
+    <li>Min -> .min()</li>
+</ul>
+There are plenty of other too, search the internet should you require one not listed, it is probably available.
+
+<br><br>
+To calculate and display the total of all the orders in the shop orders csv, paste the following code:
+<em><b>data['total'].sum()</b></em>

@@ -1,0 +1,19 @@
+<h2>Displaying the Head or Tail</h2>
+
+Frequently the amount of data being analysed makes it impossible to keep printing out on the screen and viewing it.<br><br>
+
+Run the code in the main python file. You'll notice that some of the columns are hidden and that there are too many rows to fit on the console page. <br><br>
+
+The Pandas DataFrame comes with two methods to quickly reduced the number of rows.
+<ul>
+    <li><em><b>head()</b></em></li>
+    <li><em><b>tail()</b></em></li>
+</ul>
+
+Byu default this will return the top 5 or the bottom 5 rows.<br>
+A number can also be added inside the brackets to change the number of rows returned.
+
+<br><br>
+For Example<br>
+to return just the top 4 rows and the name and email fields only, you would use:
+<em><b>data[['Name','Email']].head(4)</b></em>

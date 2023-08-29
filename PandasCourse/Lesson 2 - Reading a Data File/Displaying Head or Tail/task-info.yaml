@@ -1,0 +1,45 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+        Name  Height  Weight
+    0   Mike    1.78     104
+    1   Greg    1.64      69
+    2   Fred    1.83      73
+    3    Nik    1.76      71
+    4   Ryan    1.58      52
+    5    Tim    1.69      97
+    6     JP    1.63      63
+    7  Jenny    1.70      66
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 147
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 147
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: data
+  text: |+
+    import pandas as pd
+
+    data = pd.read_csv("healthData.csv")
+
+    # print out the top 8 patients only with just the Name, Height and Weight fields.
+    print(# TODO)
+
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: healthData.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

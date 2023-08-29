@@ -1,0 +1,51 @@
+                 Client           Item  Price  Qty
+27          Mila Vassar         outlet   1.38    2
+0        Danelle Ringel   cinder block   3.13    6
+3         Adolfo Mosier    conditioner   4.97    2
+39       Sonja Demarest          apple   5.97    2
+34      Fermin Fuselier     toothpaste   6.38    1
+46     Angelika Wolfson       keyboard   6.72    7
+30      Maddie Dearborn     hair brush   6.94    2
+41       Delorse Cusick         window   7.86   10
+22      Pedro Sandridge     sketch pad   8.80    2
+7         Zulema Monsen     mp3 player   9.83    1
+9            Bambi Luke           bowl  10.22    4
+44       Louann Crigler         camera  11.15    7
+26           Janee Shoe         canvas  14.51   10
+15         Aurore Oberg      face wash  15.14    8
+10         Kaley Pascal          towel  16.86    5
+20     Lauralee Decicco       boom box  17.61    8
+24       Joycelyn Pasek          table  18.26    9
+19    Patrina Aguinaldo    thermometer  18.29    4
+5    Esmeralda Spagnolo        balloon  19.18    5
+13         Aide Wellman          floor  21.49    4
+23    Latrisha Bertrand             tv  24.60    7
+17     Kizzy Mclaughlin           cork  24.66    5
+32     Marcellus Vogler        sharpie  24.88    4
+37         Lela Okelley          phone  25.61    9
+36  Graciela Desantiago         helmet  25.65    7
+35        Donita Petrus     thermostat  29.74    9
+29          Jena Decato          screw  30.43    7
+45        Romona Lawler      stockings  33.45    3
+6       Kathi Stillings        perfume  34.11    6
+4         Tracee Barcia       hair tie  35.60    2
+25     Daphne Constante          watch  35.60    7
+21    Kimberely Caiazzo       twezzers  37.09    4
+12        Jonah Dampier     tissue box  38.18    8
+18          Letty Koehn          clock  38.26   10
+28        Porsche Schuh         needle  40.58    4
+33          Nella Hosea         pencil  40.69    9
+38       Mavis Pletcher  ice cube tray  40.76   10
+49       Angela Kennedy     glow stick  40.93    7
+31   Beverlee Beckstead    thermometer  41.26    9
+11       Lannie Crowden          knife  41.94    7
+42         Pamelia Lebo           lace  43.07    1
+8       Crystal Scouten    paint brush  43.24    2
+40         Penni Duprey    sticky note  43.24    1
+47       Rosario Casias         helmet  43.92   10
+16         Karina Boehm        monitor  44.73    2
+48        Verline Rubio  greeting card  47.01    7
+14       Elodia Garlitz     sketch pad  47.92    5
+1       Rosaline Salido      lip gloss  48.11   10
+2     Jarrett Milbourne           tree  48.45   10
+43     Theodora Durrant      white out  48.83    3

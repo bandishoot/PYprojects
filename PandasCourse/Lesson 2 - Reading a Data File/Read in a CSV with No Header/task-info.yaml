@@ -1,0 +1,53 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+              0                       1             2     3    4    5
+    0      Mike     mnemonic@icloud.com  '1997-08-07'  1.78  104   No
+    1      Greg      greear@outlook.com  '1985-11-26'  1.64   69  Yes
+    2      Fred     fraterk@outlook.com  '1981-01-16'  1.83   73   No
+    3       Nik      niknejad@gmail.com  '1966-10-16'  1.76   71  Yes
+    4      Ryan    ryanvm@optonline.net  '1969-08-12'  1.58   52  Yes
+    5       Tim        tjensen@yahoo.ca  '1967-04-18'  1.69   97   No
+    6        JP         jpflip@yahoo.ca  '1968-03-30'  1.63   63  Yes
+    7     Jenny        jfreedma@msn.com  '1982-04-10'  1.70   66   No
+    8       Jim       wortmanj@yahoo.ca  '1990-06-15'  1.69   79   No
+    9      Gary      garyjb@verizon.net  '1970-12-07'  1.86  103  Yes
+    10   Sharon        sharon@yahoo.com  '1967-05-22'  1.58   82   No
+    11      Gus          augusto@me.com  '1970-05-20'  1.80   84   No
+    12      Ian       ianbuck@gmail.com  '1962-09-03'  1.59   88  Yes
+    13  Michael  mcrawfor@sbcglobal.net  '2009-11-15'  1.83   93  Yes
+    14   Ryan S    ryanshaw@hotmail.com  '1968-09-01'  1.61   82  Yes
+    15     Owen        oevans@yahoo.com  '1965-01-22'  1.59   68  Yes
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 73
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 73
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+
+
+    # paste code here, making sure to add header=None.
+    # TODO
+
+    print(data)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: healthNoHeader.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

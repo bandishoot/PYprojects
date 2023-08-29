@@ -1,0 +1,3 @@
+             NumStudents  NumTickets
+NumStudents     1.000000    0.957221
+NumTickets      0.957221    1.000000

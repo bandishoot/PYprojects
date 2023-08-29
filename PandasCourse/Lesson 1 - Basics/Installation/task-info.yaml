@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: task.py
+  visible: true
+  text: |
+    #Follow the instructions over on the right hand side
+  learner_created: false
+status: Unchecked
+record: -1

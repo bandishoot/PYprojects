@@ -1,0 +1,41 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+                 NumStudents  NumTickets
+    NumStudents     1.000000    0.957221
+    NumTickets      0.957221    1.000000
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 94
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 94
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+
+    data = pd.read_csv("play.csv")
+
+    # print out the correlation coefficients
+    # TODO
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: play.csv
+  visible: true
+  learner_created: false
+- name: correlation.PNG
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

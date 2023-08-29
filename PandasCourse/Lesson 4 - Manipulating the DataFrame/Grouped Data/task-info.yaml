@@ -1,0 +1,58 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 129
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 129
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+
+    data = pd.read_csv('transport.csv')
+
+    #display the mean of the journey teams grouped by transport mode
+    print(# TODO)
+
+
+
+
+
+    #expected output
+    #             Time
+    #Method
+    #Bus     35.100000
+    #Car     38.222222
+    #Train   42.500000
+    #Tram    39.400000
+    #Walk    33.222222
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: transport.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

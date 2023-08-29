@@ -1,0 +1,49 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  text: |
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+
+    data = pd.read_csv("play.csv")
+
+    # create the plot
+    data.plot(kind="scatter",x="NumStudents",y="NumTickets")
+
+
+    # perform the linear regression using numpy library
+    x = data['NumStudents']
+    y = data['NumTickets']
+    z = np.polyfit(x, y, 1)
+    p = np.poly1d(z)
+
+    # add the trendline to the plot, as a dashed line
+    plt.plot(x, p(x) ,"r--")
+
+    plt.show()
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: play.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

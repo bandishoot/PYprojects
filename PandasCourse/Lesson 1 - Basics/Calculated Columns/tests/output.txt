@@ -1,0 +1,4 @@
+    name  height  weight  colour        BMI
+0    Tim    1.73      68     red  22.720438
+1   Jane    1.68      60    blue  21.258503
+2  Alfie    1.70      80  yellow  27.681661

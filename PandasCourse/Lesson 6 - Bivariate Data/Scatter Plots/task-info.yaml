@@ -1,0 +1,48 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 103
+    length: 6
+    placeholder_text: '# TODO'
+    initial_state:
+      length: 6
+      offset: 103
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '# TODO'
+  text: |
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    data = pd.read_csv("play.csv")
+
+    # create the plot
+    # TODO
+
+    plt.show()
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  text: |
+    import unittest
+
+
+    # todo: replace this with an actual test
+    class TestCase(unittest.TestCase):
+        def test_add(self):
+            True
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: play.csv
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1

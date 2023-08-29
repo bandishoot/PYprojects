@@ -1,0 +1,30 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |2
+        name  height  weight  colour        BMI
+    0    Tim    1.73      68     red  22.720438
+    1   Jane    1.68      60    blue  21.258503
+    2  Alfie    1.70      80  yellow  27.681661
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    import pandas as pd
+
+    # create the dataframe
+    dataDict = {'name':['Tim','Jane','Alfie'], 'height':[1.73,1.68,1.70], 'weight':[68,60,80],'colour':['red','blue','yellow']}
+    data = pd.DataFrame(dataDict)
+
+    # create the BMI field
+    # TODO
+
+    # print out the result
+    print(data)
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

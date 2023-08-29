@@ -1,0 +1,19 @@
+<h2>Sorting the DataFrame</h2>
+
+At some point in all data analysis it is necessary to sort the data.<br>
+Pandas uses the <em>.sort_values()</em> method to do this for you.
+
+<br><br>
+The syntax for the .sort_values() method is:<br>
+<em><b>.sort_values([column_names], ascending = True, inplace=False)</b></em><br><br>
+
+NOTE: the final two parameters are optional, I have displayed their default values if they are omitted.
+
+<br><br>
+If we wanted to sort our shop orders in ascending order by price we could do it in one of two ways:
+<br><em><b>data.sort_values(['Price'], ascending = True)</b></em><br>
+or,<br>
+<em><b>data.sort_values(['Price'])</b></em><br>
+
+<br><br>
+The <em>inplace</em> parameter when set to True, will persist the sorted order to the dataframe.
